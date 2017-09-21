@@ -13,6 +13,7 @@
 		6A4685171F38E0D7005F9464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4685161F38E0D7005F9464 /* Assets.xcassets */; };
 		6A46851A1F38E0D7005F9464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4685181F38E0D7005F9464 /* LaunchScreen.storyboard */; };
 		6A4685221F38E0F9005F9464 /* pound-yen-euro-dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A4685211F38E0F9005F9464 /* pound-yen-euro-dollar.png */; };
+		6AFD64CC1F718BFB00B531A3 /* bank_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AFD64CB1F718BFB00B531A3 /* bank_image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6A4685191F38E0D7005F9464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A46851B1F38E0D7005F9464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A4685211F38E0F9005F9464 /* pound-yen-euro-dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pound-yen-euro-dollar.png"; sourceTree = "<group>"; };
+		6AFD64CB1F718BFB00B531A3 /* bank_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bank_image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			children = (
 				6A46850E1F38E0D7005F9464 /* CurrencyConverter */,
 				6A46850D1F38E0D7005F9464 /* Products */,
+				6AFD64CB1F718BFB00B531A3 /* bank_image.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +133,7 @@
 				6A46851A1F38E0D7005F9464 /* LaunchScreen.storyboard in Resources */,
 				6A4685171F38E0D7005F9464 /* Assets.xcassets in Resources */,
 				6A4685221F38E0F9005F9464 /* pound-yen-euro-dollar.png in Resources */,
+				6AFD64CC1F718BFB00B531A3 /* bank_image.jpg in Resources */,
 				6A4685151F38E0D7005F9464 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
