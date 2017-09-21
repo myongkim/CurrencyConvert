@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,16 +22,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bank_image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lW6-db-1N3">
-                                <rect key="frame" x="16" y="160" width="343" height="299"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pound-yen-euro-dollar.png" translatesAutoresizingMaskIntoConstraints="NO" id="xse-wG-0mh">
+                                <rect key="frame" x="67" y="490" width="240" height="157"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pound-yen-euro-dollar.png" translatesAutoresizingMaskIntoConstraints="NO" id="xse-wG-0mh">
-                                <rect key="frame" x="67" y="467" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="bank_image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lW6-db-1N3">
+                                <rect key="frame" x="0.0" y="113" width="375" height="295"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lW6-db-1N3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="AVZ-n7-NgZ"/>
+                            <constraint firstItem="lW6-db-1N3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Cg4-KN-4OQ"/>
+                            <constraint firstAttribute="trailing" secondItem="lW6-db-1N3" secondAttribute="trailing" id="RZJ-gN-efw"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="xse-wG-0mh" secondAttribute="bottom" constant="20" id="Rhc-bU-4DV"/>
+                            <constraint firstItem="lW6-db-1N3" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="93" id="VID-37-DvD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xse-wG-0mh" secondAttribute="trailing" constant="52" id="VPZ-Zr-dzQ"/>
+                            <constraint firstItem="xse-wG-0mh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="51" id="Xfj-AK-zvq"/>
+                            <constraint firstAttribute="trailing" secondItem="lW6-db-1N3" secondAttribute="trailing" id="hNd-to-uf1"/>
+                            <constraint firstItem="xse-wG-0mh" firstAttribute="top" secondItem="lW6-db-1N3" secondAttribute="bottom" constant="82" id="mpr-En-7dq"/>
+                            <constraint firstItem="lW6-db-1N3" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="93" id="zee-77-AQE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
